@@ -1,0 +1,27 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Rotbarsch.Reqnroll.Core.Contracts/Rotbarsch.Reqnroll.Core.Contracts.csproj" Id="4e2cb30a-f79d-4758-a94d-9010a11badc5" />
+    <Project Path="Rotbarsch.Reqnroll.Core/Rotbarsch.Reqnroll.Core.csproj" />
+  </Folder>
+  <Folder Name="/Demo/">
+    <Project Path="Rotbarsch.Reqnroll.Bindings.de/Rotbarsch.Reqnroll.Bindings.de.csproj" Id="e04f0fe0-a25d-4d4b-916f-98ea1dc75dea" />
+    <Project Path="Rotbarsch.Reqnroll.Demo.de/Rotbarsch.Reqnroll.Demo.de.csproj" Id="3a8e6fde-ae90-41da-8474-d0f389a00349" />
+    <Project Path="Rotbarsch.Reqnroll.Demo/Rotbarsch.Reqnroll.Demo.csproj" />
+  </Folder>
+  <Folder Name="/Drivers/">
+    <Project Path="Rotbarsch.Reqnroll.Drivers.Interfaces/Rotbarsch.Reqnroll.Drivers.Interfaces.csproj" />
+    <Project Path="Rotbarsch.Reqnroll.Drivers/Rotbarsch.Reqnroll.Drivers.csproj" />
+  </Folder>
+  <Folder Name="/Services/">
+    <Project Path="Rotbarsch.Reqnroll.Services.Interfaces/Rotbarsch.Reqnroll.Services.Interfaces.csproj" />
+    <Project Path="Rotbarsch.Reqnroll.Services/Rotbarsch.Reqnroll.Services.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="icon.png" />
+    <File Path="icon64.png" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Rotbarsch.Reqnroll.Bindings.Interfaces/Rotbarsch.Reqnroll.Bindings.Interfaces.csproj" />
+  <Project Path="Rotbarsch.Reqnroll.Bindings/Rotbarsch.Reqnroll.Bindings.csproj" />
+</Solution>

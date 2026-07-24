@@ -1,0 +1,20 @@
+{
+  "testVariables": [
+    {
+      "name": "exampleString",
+      "value": null
+    },
+    {
+      "name": "exampleNumber",
+      "value": null
+    },
+    {
+      "name": "exampleNull",
+      "value": null
+    },
+    {
+      "name": "demoApiBaseUrl",
+      "value": "https://localhost:7031"
+    }
+  ]
+}
