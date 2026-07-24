@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.reqnroll.net/reqnroll-config-latest.json",
+  "language": {
+    "feature": "de-DE"
+  },
+  "trace": {
+    "stepDefinitionSkeletonStyle": "RegexAttribute"
+  },
+  "bindingAssemblies": [
+    {
+      "assembly": "Rotbarsch.Reqnroll.Core"
+    },
+    {
+      "assembly": "Rotbarsch.Reqnroll.Bindings.de"
+    }
+  ],
+  "testVariables": [
+    {
+      "name": "demoApiBaseUrl",
+      "value": "https://localhost:7031"
+    },
+    {
+      "name": "nullExample",
+      "value": null
+    }
+  ]
+}
