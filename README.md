@@ -14,9 +14,9 @@ See the Rotbarsch.Reqnroll.Demo project for more usage examples or the full list
 ## Advantages of using Rotbarsch.Reqnroll
 - **Natural Language**: Write tests in plain English, making them accessible to non-technical team members.
 - **Version control compatible**: Test cases can be easily managed and tracked using standard version control systems.
-- **Ease of Use**: Simplifies the process of creating and maintaining REST API tests.
-- **Integration with Reqnroll**: Leverages the powerful features of Reqnroll and its various integrations for REST API testing.
-- **Flexibility**: Easily adaptable to various REST API testing scenarios.
+- **Ease of Use**: Simplifies the process of creating and maintaining tests.
+- **Integration with Reqnroll**: Leverages the powerful features of Reqnroll and its various integrations for testing.
+- **Flexibility**: Easily adaptable to various testing scenarios.
 - **Ready for AI**: The natural language used for describing tests is well-suited for AI-driven test generation and analysis.
 
 ## Running tests
