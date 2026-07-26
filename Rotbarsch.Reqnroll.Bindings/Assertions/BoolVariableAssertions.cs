@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Assertions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -9,7 +8,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Assertions;
 /// </summary>
 /// <param name="boolVariableDriver">Driver component used to perform boolean variable assertions.</param>
 [Binding]
-public class BoolVariableAssertions(IBoolVariableDriver boolVariableDriver) : IBoolVariableAssertions
+public class BoolVariableAssertions(IBoolVariableDriver boolVariableDriver)
 {
     /// <summary>
     /// Then step: Asserts that the specified variable is true.

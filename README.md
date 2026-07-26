@@ -154,13 +154,6 @@ This allows you to easily switch between different files based on the current en
 
 In contrast to the mechanism for additional configuration files, file-redirects are not additive. Meaning, no file merging takes place and only the file defined in the redirect is loaded.
 
-## Translating into other languages
-Rotbarsch.Reqnroll currently supports only English (en-US) as the language for writing test cases. However, since Reqnroll supports multiple languages, it is possible to translate the bindings into other languages.
-
-Rotbarsch.Reqnroll was designed with localization in mind. To translate the bindings into another language, you would need to create a new set of bindings with the same functionality but with step definitions in the desired language.
-
-See [a Proof of Concept for a German translation](./Rotbarsch.Reqnroll.Demo.de) (only translated a few basic bindings to demonstrate the idea) and its [underlying German bindings](./Rotbarsch.Reqnroll.Demo.de).
-
 ## Recommended workflow
 
 ### Using the Reqnroll IDE integrations

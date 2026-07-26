@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -12,7 +11,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions;
 /// </remarks>
 /// <param name="xmlDriver">Driver component used to evaluate XPath and set variables.</param>
 [Binding]
-public class VariableXmlBindings(IXmlDriver xmlDriver) : IVariableXmlBindings
+public class VariableXmlBindings(IXmlDriver xmlDriver)
 {
 
     /// <summary>

@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Assertions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -12,7 +11,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Assertions;
 /// </remarks>
 /// <param name="basicVariableDriver">Driver component used to perform variable assertions.</param>
 [Binding]
-public class BasicVariableAssertions(IBasicVariableDriver basicVariableDriver) : IBasicVariableAssertions
+public class BasicVariableAssertions(IBasicVariableDriver basicVariableDriver)
 {
 
     /// <summary>

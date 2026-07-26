@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using NUnit.Framework;
 using Reqnroll;
@@ -9,7 +8,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions;
 /// Step bindings for pausing test execution.
 /// </summary>
 [Binding]
-public class WaitBindings(IWaitDriver waitDriver) : IWaitBindings
+public class WaitBindings(IWaitDriver waitDriver)
 {
     /// <summary>
     /// When step: Pauses test execution for the specified number of seconds.

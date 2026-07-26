@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions.ManipulateVariableActions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -13,7 +12,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions.ManipulateVariableActions;
 /// </remarks>
 /// <param name="dateTimeDriver">Driver component for DateTime operations.</param>
 [Binding]
-public class DateTimeVariableManipulationBindings(IDateTimeDriver dateTimeDriver) : IDateTimeVariableManipulationBindings
+public class DateTimeVariableManipulationBindings(IDateTimeDriver dateTimeDriver)
 {
 
     /// <summary>

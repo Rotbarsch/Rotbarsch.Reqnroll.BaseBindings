@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions.SetVariableActions;
 using Rotbarsch.Reqnroll.Core.Contracts;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
@@ -9,7 +8,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions.SetVariableActions;
 ///     Step bindings for storing date/time based values into scenario variables.
 /// </summary>
 [Binding]
-public class DateTimeVariableBindings(IDateTimeDriver dateTimeDriver) : IDateTimeVariableBindings
+public class DateTimeVariableBindings(IDateTimeDriver dateTimeDriver)
 {
     /// <summary>
     ///     When step: Stores the current date/time as a string in the specified variable using the system default format.

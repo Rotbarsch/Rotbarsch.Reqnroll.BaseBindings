@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -12,7 +11,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions;
 /// </remarks>
 /// <param name="basicVariableDriver">Driver component used to set variables.</param>
 [Binding]
-public class BasicVariableBindings(IBasicVariableDriver basicVariableDriver) : IBasicVariableBindings
+public class BasicVariableBindings(IBasicVariableDriver basicVariableDriver)
 {
 
     /// <summary>

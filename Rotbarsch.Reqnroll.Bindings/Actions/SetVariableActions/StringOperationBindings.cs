@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions.SetVariableActions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -8,7 +7,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions.SetVariableActions;
 ///     Step bindings that perform string operations and store results in scenario variables.
 /// </summary>
 [Binding]
-public class StringOperationBindings(IStringDriver stringDriver) : IStringOperationBindings
+public class StringOperationBindings(IStringDriver stringDriver)
 {
     /// <summary>
     ///     When step: Extracts a substring from the provided input string using the given start index and length,

@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions;
 using Rotbarsch.Reqnroll.Core.Contracts;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
@@ -9,7 +8,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions;
 /// Step bindings to filter JSON collections by evaluating JSONPath expressions against elements and applying comparison operations.
 /// </summary>
 [Binding]
-public class JsonPathCollectionFilterBindings(IJsonPathDriver jsonPathDriver) : IJsonPathCollectionFilterBindings
+public class JsonPathCollectionFilterBindings(IJsonPathDriver jsonPathDriver)
 {
     /// <summary>
     /// Filters the collection in the source variable by selecting elements where the JSONPath value is greater than the comparison value.

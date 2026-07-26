@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -8,7 +7,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions;
 /// Step bindings for Stopwatch setup.
 /// </summary>
 [Binding]
-public class StopwatchBindings(IStopwatchDriver stopwatchDriver) : IStopwatchBindings
+public class StopwatchBindings(IStopwatchDriver stopwatchDriver)
 {
     /// <summary>
     /// When step: Creates and starts a new stopwatch with the specified name.

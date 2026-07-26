@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Assertions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -8,7 +7,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Assertions;
 ///     Step bindings providing JSON Schema validation assertions for JSON stored in scenario variables.
 /// </summary>
 [Binding]
-public class JsonSchemaAssertions(IJsonSchemaDriver jsonSchemaDriver) : IJsonSchemaAssertions
+public class JsonSchemaAssertions(IJsonSchemaDriver jsonSchemaDriver)
 {
     /// <summary>
     ///     Then step: Asserts that the JSON stored in the specified variable conforms to the provided JSON Schema.

@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions.SetVariableActions;
 using Rotbarsch.Reqnroll.Core.Contracts;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
@@ -12,7 +11,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions.SetVariableActions;
 ///     Step bindings for generating and storing random strings in scenario variables.
 /// </remarks>
 [Binding]
-public class RandomStringVariableBindings(IRandomizerDriver randomizerDriver) : IRandomStringVariableBindings
+public class RandomStringVariableBindings(IRandomizerDriver randomizerDriver)
 {
 
     /// <summary>

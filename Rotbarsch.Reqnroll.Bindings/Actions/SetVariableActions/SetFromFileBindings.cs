@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Assertions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -8,7 +7,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions.SetVariableActions;
 ///     Step bindings to load the content of a file and store it into a scenario variable.
 /// </summary>
 [Binding]
-public class SetFromFileBindings(IFileSystemDriver fileSystemDriver) : ISetFromFileBindings
+public class SetFromFileBindings(IFileSystemDriver fileSystemDriver)
 {
     /// <summary>
     ///     When step: Reads all text from the specified file path and stores it into the given variable.
