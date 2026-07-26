@@ -14,9 +14,9 @@ See the Rotbarsch.Reqnroll.Demo project for more usage examples or the full list
 ## Advantages of using Rotbarsch.Reqnroll
 - **Natural Language**: Write tests in plain English, making them accessible to non-technical team members.
 - **Version control compatible**: Test cases can be easily managed and tracked using standard version control systems.
-- **Ease of Use**: Simplifies the process of creating and maintaining REST API tests.
-- **Integration with Reqnroll**: Leverages the powerful features of Reqnroll and its various integrations for REST API testing.
-- **Flexibility**: Easily adaptable to various REST API testing scenarios.
+- **Ease of Use**: Simplifies the process of creating and maintaining tests.
+- **Integration with Reqnroll**: Leverages the powerful features of Reqnroll and its various integrations for testing.
+- **Flexibility**: Easily adaptable to various testing scenarios.
 - **Ready for AI**: The natural language used for describing tests is well-suited for AI-driven test generation and analysis.
 
 ## Running tests
@@ -176,7 +176,7 @@ Given the natural language basis of Rotbarsch.Reqnroll, it is well-suited for us
 ## Debugging your tests
 You can use the special `Then enter debug mode` binding to enter Rotbarsch.ReqnrollDebug mode during test execution, provided a debugger is attached.
 In this state, a property named `Debug` is provided in your debug content. Use the Immediate Window (Visual Studio) or the Debug Console (Visual Studio Code) to execute commands against this property. 
-See [the debug service](https://github.com/Rotbarsch/Rotbarsch.Reqnroll/blob/main/Rotbarsch.Reqnroll.Services.Interfaces/IDebugUtilityService.cs) for the available commands.
+See [the debug service](https://github.com/Rotbarsch/Rotbarsch.Reqnroll.BaseBindings/blob/main/Rotbarsch.Reqnroll.Services.Interfaces/IDebugUtilityService.cs) for the available commands.
 
 ## License
 
