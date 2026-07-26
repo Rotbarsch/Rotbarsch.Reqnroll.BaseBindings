@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Assertions;
 using Rotbarsch.Reqnroll.Core.Contracts;
 using Rotbarsch.Reqnroll.Services.Interfaces;
 using Reqnroll;
@@ -12,7 +11,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Assertions;
 ///     Step bindings providing numeric assertions on variables that store numeric values.
 /// </remarks>
 [Binding]
-public class CompareVariableAssertions(IComparisonService comparisonService, IVariableService variableService) : ICompareVariableAssertions
+public class CompareVariableAssertions(IComparisonService comparisonService, IVariableService variableService)
 {
 
     /// <summary>

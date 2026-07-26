@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Assertions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -12,7 +11,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Assertions;
 /// </remarks>
 /// <param name="regExDriver">Driver component used to perform regex assertions.</param>
 [Binding]
-public class RegExAssertions(IRegExDriver regExDriver) : IRegExAssertions
+public class RegExAssertions(IRegExDriver regExDriver)
 {
 
     /// <summary>

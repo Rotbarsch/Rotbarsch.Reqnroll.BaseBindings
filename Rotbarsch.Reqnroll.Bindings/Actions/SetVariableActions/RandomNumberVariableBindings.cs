@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions.SetVariableActions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using NUnit.Framework;
 using Reqnroll;
@@ -9,7 +8,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions.SetVariableActions;
 ///     Step bindings for generating and storing random numeric values in scenario variables.
 /// </summary>
 [Binding]
-public class RandomNumberVariableBindings(IRandomizerDriver randomizerDriver) : IRandomNumberVariableBindings
+public class RandomNumberVariableBindings(IRandomizerDriver randomizerDriver)
 {
     /// <summary>
     ///     When step: Generates a random integer within the inclusive lower/upper bounds and stores it in the specified

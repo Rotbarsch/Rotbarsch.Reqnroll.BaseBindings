@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Assertions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -12,7 +11,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Assertions;
 /// </remarks>
 /// <param name="stringDriver">Driver component for string operations.</param>
 [Binding]
-public class StringVariableAssertions(IStringDriver stringDriver) : IStringVariableAssertions
+public class StringVariableAssertions(IStringDriver stringDriver)
 {
 
     /// <summary>

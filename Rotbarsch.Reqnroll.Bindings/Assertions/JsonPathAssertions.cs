@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Assertions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -9,7 +8,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Assertions;
 /// </summary>
 /// <param name="jsonPathDriver">Driver component used to evaluate JSONPath and set variables.</param>
 [Binding]
-public class JsonPathAssertions(IJsonPathDriver jsonPathDriver) : IJsonPathAssertions
+public class JsonPathAssertions(IJsonPathDriver jsonPathDriver)
 {
 
     /// <summary>

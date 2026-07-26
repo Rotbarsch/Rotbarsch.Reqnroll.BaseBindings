@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions.ManipulateVariableActions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -12,7 +11,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions.ManipulateVariableActions;
 /// </remarks>
 /// <param name="stringDriver">Driver component used to perform string manipulations.</param>
 [Binding]
-public class StringVariableManipulationBindings(IStringDriver stringDriver) : IStringVariableManipulationBindings
+public class StringVariableManipulationBindings(IStringDriver stringDriver)
 {
 
     /// <summary>

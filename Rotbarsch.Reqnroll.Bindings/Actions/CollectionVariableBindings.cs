@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -9,7 +8,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions;
 /// </summary>
 /// <param name="collectionVariableDriver">Driver component used for interactions with collections.</param>
 [Binding]
-public class CollectionVariableBindings(ICollectionVariableDriver collectionVariableDriver) : ICollectionVariableBindings
+public class CollectionVariableBindings(ICollectionVariableDriver collectionVariableDriver)
 {
     /// <summary>
     /// Gets the length of the collection stored in the specified variable and stores it in another variable.

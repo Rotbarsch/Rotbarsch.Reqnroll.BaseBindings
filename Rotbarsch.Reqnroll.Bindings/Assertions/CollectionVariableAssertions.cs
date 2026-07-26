@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Assertions;
 using Rotbarsch.Reqnroll.Drivers.Interfaces;
 using Reqnroll;
 
@@ -11,7 +10,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Assertions;
 ///     Step bindings providing assertions for variables representing JSON arrays (element count checks).
 /// </remarks>
 [Binding]
-public class CollectionVariableAssertions(ICollectionVariableDriver collectionVariableDriver) : ICollectionVariableAssertions
+public class CollectionVariableAssertions(ICollectionVariableDriver collectionVariableDriver)
 {
 
     /// <summary>

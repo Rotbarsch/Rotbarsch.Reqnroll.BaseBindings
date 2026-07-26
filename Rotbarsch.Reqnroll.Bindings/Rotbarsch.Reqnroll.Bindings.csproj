@@ -19,6 +19,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Setup\**" />
+    <EmbeddedResource Remove="Setup\**" />
+    <None Remove="Setup\**" />
+    <ReqnrollFeatureFile Remove="Setup\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="../THIRD-PARTY-NOTICES.txt" Pack="true" PackagePath="" />
   </ItemGroup>
 
@@ -30,7 +37,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rotbarsch.Reqnroll.Bindings.Interfaces\Rotbarsch.Reqnroll.Bindings.Interfaces.csproj" />
     <ProjectReference Include="..\Rotbarsch.Reqnroll.Core\Rotbarsch.Reqnroll.Core.csproj" />
     <ProjectReference Include="..\Rotbarsch.Reqnroll.Drivers.Interfaces\Rotbarsch.Reqnroll.Drivers.Interfaces.csproj" />
   </ItemGroup>
@@ -41,7 +47,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Setup\" />
+    <ReqnrollObsoleteCodeBehindFiles Remove="Setup\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ReqnrollLegacyCodeBehindFiles Remove="Setup\**" />
   </ItemGroup>
 
 </Project>

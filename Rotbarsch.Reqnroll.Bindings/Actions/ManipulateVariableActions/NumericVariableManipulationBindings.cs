@@ -1,4 +1,3 @@
-using Rotbarsch.Reqnroll.Bindings.Interfaces.Actions.ManipulateVariableActions;
 using Rotbarsch.Reqnroll.Services.Interfaces;
 using Reqnroll;
 
@@ -12,7 +11,7 @@ namespace Rotbarsch.Reqnroll.Bindings.Actions.ManipulateVariableActions;
 /// </remarks>
 /// <param name="numericService">Driver component used to perform numeric operations.</param>
 [Binding]
-public class NumericVariableManipulationBindings(INumericService numericService) : INumericVariableManipulationBindings
+public class NumericVariableManipulationBindings(INumericService numericService)
 {
 
     /// <summary>
