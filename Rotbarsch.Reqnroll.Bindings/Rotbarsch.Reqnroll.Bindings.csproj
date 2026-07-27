@@ -11,7 +11,7 @@
     <IsPackable>true</IsPackable>
     <IsTestProject>false</IsTestProject>
     <PackageId>Rotbarsch.Reqnroll.Bindings</PackageId>
-    <Description>English Gherkin bindings for usage in a Reqnroll test project for testing OPC/UA endpoints.</Description>
+    <Description>English Gherkin bindings for usage in a Reqnroll test projects.</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn);1591</NoWarn>
