@@ -25,7 +25,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 8.0.x
+          dotnet-version: 10.0.x
 
       - name: Restore
         run: dotnet restore
@@ -54,7 +54,7 @@ jobs:
 
       - name: Generate Bindings.md
         run: |
-          dnx -y Rotbarsch.ReqnrollDocumentationGenerator -- -i "./Rotbarsch.Reqnroll.Demo/bin/Release/net8.0/Rotbarsch.Reqnroll.Bindings.dll;./Rotbarsch.Reqnroll.Demo/bin/Release/net8.0/Rotbarsch.Reqnroll.Bindings.xml" -o "./wiki/Bindings.md"
+          dnx -y Rotbarsch.ReqnrollDocumentationGenerator -- -i "./Rotbarsch.Reqnroll.Demo/bin/Release/net10.0/Rotbarsch.Reqnroll.Bindings.dll;./Rotbarsch.Reqnroll.Demo/bin/Release/net10.0/Rotbarsch.Reqnroll.Bindings.xml" -o "./wiki/Bindings.md"
 
       - name: Commit and Push Bindings.md to Wiki
         working-directory: wiki
